@@ -1,0 +1,16 @@
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\bin\Debug\netcoreapp3.1\2021_Level3_Dodge.exe
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\bin\Debug\netcoreapp3.1\2021_Level3_Dodge.deps.json
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\bin\Debug\netcoreapp3.1\2021_Level3_Dodge.runtimeconfig.json
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\bin\Debug\netcoreapp3.1\2021_Level3_Dodge.runtimeconfig.dev.json
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\bin\Debug\netcoreapp3.1\2021_Level3_Dodge.dll
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\bin\Debug\netcoreapp3.1\2021_Level3_Dodge.pdb
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.csprojAssemblyReference.cache
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\_2021_Level3_Dodge.FrmDodge.resources
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\_2021_Level3_Dodge.Properties.Resources.resources
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.csproj.GenerateResource.cache
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.AssemblyInfoInputs.cache
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.AssemblyInfo.cs
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.csproj.CoreCompileInputs.cache
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.dll
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.pdb
+H:\Programming\2021_Level3_Dodge\2021_Level3_Dodge\obj\Debug\netcoreapp3.1\2021_Level3_Dodge.genruntimeconfig.cache

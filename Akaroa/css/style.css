@@ -1,0 +1,160 @@
+body {
+	font-family:Fondamento, verdana, arial, helvetica, sans-serif;
+  font-size:13px;
+  font: 14px Domine,Verdana, Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;/* five columns */
+  	grid-template-areas:
+    	'header header header header header'
+    	'nav left_column left-column right_column right_column'
+    	'footer footer footer footer footer';
+
+    
+	
+    }
+    
+    header {
+        grid-area:header;
+        background-image:url('../images/header_logo.gif');
+        background-position:bottom;
+        height: 112px;
+        background-color: #11A298;
+        background-repeat:no-repeat;
+        border-radius: 15px 15px 0px 0px;
+
+    }
+
+    nav {
+      grid-area:nav; /* the nav element gets the grid item name nav */
+      margin: 0 0 15px 0;
+      padding: 25px 0 12px 10px;
+      border-style: solid;
+      border-width: 1px 0 0 0;
+      border-color: #fff;
+      overflow: hidden;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+        nav ul li {
+          
+          margin: 0 0 2.5em 0;
+          padding: 0;
+          font-size: 1.2em;
+          }
+
+          nav ul li a {
+	
+            padding:10px;
+            color: #000000;
+            text-align:center;
+            text-decoration:none;
+            border: 1px solid #000000;
+            margin: 5px 0px;
+            border-radius: 8px;
+            box-shadow: 1px 1px 3px grey ;
+        }
+        
+        /* put color inside navigation buttons */
+nav ul a:link, nav ul a:visited {
+	background: rgba(92,133,195,0.5);
+}
+
+/* When in hover change text colour to white  */
+nav ul li a:hover {
+color: #fff;
+}
+/* When in hover or focus states increase opacity of button colour */
+nav ul a:hover, nav ul a:active, nav ul a:focus {
+	background: rgba(92,133,195,0.9);
+}
+/* when you hover over the menu button it moves 10 pixels up */
+nav ul li:hover {
+	margin-top:-10px;
+}
+
+article.left-column {
+	grid-area: left_column;
+	width:60%;
+	background-color: #11A298;
+	padding:10px;
+	font: 14px Domine,Verdana, Arial, Helvetica, sans-serif;
+}
+
+figure {
+	float:right;
+}
+figcaption {
+		font-family:Elsie, Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+}
+
+
+article.right-column {
+	grid-area: right_column;
+	background-color:#5c85c3;
+	color:white;
+	font-size:14px;
+	margin:0px;
+	padding:10px;
+}
+
+footer {
+	grid-area: footer;
+	height:30px;
+	padding:5px;
+	text-align:center;
+	font-size: small;
+	background-color:#9C0E0E;
+	border-radius:  0px 0px 15px 15px;
+}
+
+/* Responsive layout - makes the two columns display as one column to show on a mobile phone */
+@media (max-width: 600px) {
+  .grid-container  {
+	  grid-template-columns:  1fr;/* one column */
+	      grid-template-areas: 
+	        'header'
+	      'nav'
+	      'left_column'
+	      'right_column'
+        'footer';
+        
+
+    
+  }
+
+
+  header {
+    background-size: contain;
+    height:50px;
+  }
+  
+  nav ul li {
+
+    float:left;
+    margin: 0 0.5em 0 0;
+    padding: 25px 0 0 0;
+    font-size: 0.5em;
+    }
+    
+    #search form{
+      padding-top: 150px;
+    }
+    
+
+}
+
+
+        
+        
+        
+      
+    
+    
