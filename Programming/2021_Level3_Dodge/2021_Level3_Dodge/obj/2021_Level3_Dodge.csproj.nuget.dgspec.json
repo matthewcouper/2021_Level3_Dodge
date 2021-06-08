@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj": {}
+    "C:\\Users\\matthewcouper\\Source\\Repos\\matthewcouper\\2021_Level3_Dodge\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj": {}
   },
   "projects": {
-    "H:\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj": {
+    "C:\\Users\\matthewcouper\\Source\\Repos\\matthewcouper\\2021_Level3_Dodge\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj",
+        "projectUniqueName": "C:\\Users\\matthewcouper\\Source\\Repos\\matthewcouper\\2021_Level3_Dodge\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj",
         "projectName": "2021_Level3_Dodge",
-        "projectPath": "H:\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj",
+        "projectPath": "C:\\Users\\matthewcouper\\Source\\Repos\\matthewcouper\\2021_Level3_Dodge\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\2021_Level3_Dodge.csproj",
         "packagesPath": "C:\\Users\\matthewcouper\\.nuget\\packages\\",
-        "outputPath": "H:\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\obj\\",
+        "outputPath": "C:\\Users\\matthewcouper\\Source\\Repos\\matthewcouper\\2021_Level3_Dodge\\Programming\\2021_Level3_Dodge\\2021_Level3_Dodge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matthewcouper\\AppData\\Roaming\\NuGet\\NuGet.Config",
