@@ -17,10 +17,11 @@ namespace _2021_Level3_Dodge
         // declare space for an array of 7 objects called planet 
         Planet[] planet = new Planet[7];
         Random yspeed = new Random();
+        Spaceship spaceship = new Spaceship();
 
 
-
-
+        bool left, right;
+        string move;
 
         public FrmDodge()
         {
@@ -57,6 +58,37 @@ namespace _2021_Level3_Dodge
                 planet[i].DrawPlanet(g);
             }
 
+            spaceship.DrawSpaceship(g);
+
+
+        }
+
+        private void FrmDodge_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Left) { left = true; }
+            if (e.KeyData == Keys.Right) { right = true; }
+
+        }
+
+        private void FrmDodge_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Left) { left = false; }
+            if (e.KeyData == Keys.Right) { right = false; }
+
+        }
+
+        private void TmrShip_Tick(object sender, EventArgs e)
+        {
+            if (right) // if right arrow key pressed
+            {
+                move = "right";
+                spaceship.MoveSpaceship(move);
+            }
+            if (left) // if left arrow key pressed
+            {
+                move = "left";
+                spaceship.MoveSpaceship(move);
+            }
 
         }
 
