@@ -18,11 +18,6 @@ namespace _2021_Level3_Dodge
         Planet[] planet = new Planet[7];
         Random yspeed = new Random();
 
-        Spaceship spaceship = new Spaceship();
-
-
-        bool left, right;
-        string move;
 
 
 
@@ -62,7 +57,6 @@ namespace _2021_Level3_Dodge
                 planet[i].DrawPlanet(g);
             }
 
-            spaceship.DrawSpaceship(g);
 
         }
 
